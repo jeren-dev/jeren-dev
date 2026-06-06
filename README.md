@@ -1,6 +1,6 @@
 <!-- HERO ANIMATION HEADER (CYAN GRADIENT ACCENT) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07050f,50:1a103c,100:00f7ff&height=240&section=header&text=JEREN%20J&fontSize=45&fontColor=ffffff&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07050f,50:1a103c,100:00f7ff&height=220&section=header&text=JEREN%20J&fontSize=42&fontColor=ffffff&animation=twinkling"/>
 </p>
 
 <!-- PREMIUM TYPING SUB-HEADER -->
@@ -54,19 +54,15 @@
 ## 🚀 Featured Deployments (Hover Glow Cards)
 
 <p align="center">
-
-<a href="https://github.com/jeren-dev/VoiceBudget">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=VoiceBudget&theme=tokyonight&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&bg_color=07050f&hide_border=false" />
-</a>
-
-<a href="https://github.com/jeren-dev/Emergency-Sos">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Emergency-Sos&theme=tokyonight&title_color=8b5cf6&icon_color=10b981&text_color=ffffff&bg_color=07050f&hide_border=false" />
-</a>
-
-<a href="https://github.com/jeren-dev/Ration-Shop">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Ration-Shop&theme=tokyonight&title_color=10b981&icon_color=00f7ff&text_color=ffffff&bg_color=07050f&hide_border=false" />
-</a>
-
+  <a href="https://github.com/jeren-dev/VoiceBudget">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=VoiceBudget&theme=tokyonight&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&bg_color=07050f&hide_border=false" />
+  </a>
+  <a href="https://github.com/jeren-dev/Emergency-Sos">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Emergency-Sos&theme=tokyonight&title_color=8b5cf6&icon_color=10b981&text_color=ffffff&bg_color=07050f&hide_border=false" />
+  </a>
+  <a href="https://github.com/jeren-dev/Ration-Shop">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Ration-Shop&theme=tokyonight&title_color=10b981&icon_color=00f7ff&text_color=ffffff&bg_color=07050f&hide_border=false" />
+  </a>
 </p>
 
 ---
@@ -74,11 +70,11 @@
 ## 📊 Live Core Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jeren-dev&show_icons=true&theme=tokyonight&bg_color=07050f&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jeren-dev&show_icons=true&theme=tokyonight&bg_color=07050f&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeren-dev&theme=tokyonight&background=07050f&ring=00f7ff&fire=8b5cf6&currStreakLabel=10b981&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeren-dev&theme=tokyonight&background=07050f&ring=00f7ff&fire=8b5cf6&currStreakLabel=10b981&hide_border=true" />
 </p>
 
 ---
