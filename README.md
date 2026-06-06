@@ -126,10 +126,10 @@
       <!-- ROW 3: CORPORATION HUB -->
       <tr>
         <td style="padding: 15px; border: 1px solid #1a1a2e; font-weight: bold; color: #ffffff;">
-          🏢 Corporate System
+          🏢 Ration System
         </td>
         <td style="padding: 15px; border: 1px solid #1a1a2e; color: #a0aec0; font-size: 13px;">
-          Enterprise administrative hub handling role-based access tokens, JSON integration pipelines via Volley networks, and MySQL schemas.
+          Ration shop administrative hub handling role-based access tokens, JSON integration pipelines via Volley networks, and MySQL schemas.
         </td>
         <td style="padding: 15px; border: 1px solid #1a1a2e;">
           <img src="https://img.shields.io/badge/PHP-10b981?style=flat-square"/> <img src="https://img.shields.io/badge/Volley_API-orange?style=flat-square"/>
