@@ -8,12 +8,30 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2400&pause=600&color=00F7FF&center=true&vCenter=true&width=550&lines=Android+Developer;Full+Stack+Engineer;Freelance+App+Architect;Kotlin+%7C+Java+%7C+Web+Dev"/>
 </p>
 
-<!-- TECH BADGES QUICK OVERVIEW (STATIC VIEW - NO LINK) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Native%20Android-00F7FF?style=flat-square&logo=android&logoColor=000" />
-  <img src="https://img.shields.io/badge/Backend-Full%20Stack-8B5CF6?style=flat-square&logo=php&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Status-Available%20For%20Freelance-10B981?style=flat-square&logo=codefactor&logoColor=fff" />
-</p>
+<!-- PURE MODERN GLASS-MATRIX CAPSULES (STATIC VIEWS - NON-CLICKABLE) -->
+<div align="center">
+  <table style="border: none; border-collapse: collapse; background: transparent;">
+    <tr>
+      <td style="padding: 0 8px;">
+        <kbd style="background: #0e0b1e; border: 1px solid #00F7FF; color: #00F7FF; padding: 8px 14px; font-size: 14px; font-family: 'Fira Code', monospace; border-radius: 6px; box-shadow: 0 0 8px rgba(0,247,255,0.2);">
+          📱 <b>Platform:</b> Native Android
+        </kbd>
+      </td>
+      <td style="padding: 0 8px;">
+        <kbd style="background: #0e0b1e; border: 1px solid #8B5CF6; color: #8B5CF6; padding: 8px 14px; font-size: 14px; font-family: 'Fira Code', monospace; border-radius: 6px; box-shadow: 0 0 8px rgba(139,92,246,0.2);">
+          🌐 <b>Backend:</b> Full Stack
+        </kbd>
+      </td>
+      <td style="padding: 0 8px;">
+        <kbd style="background: #0e0b1e; border: 1px solid #10B981; color: #10B981; padding: 8px 14px; font-size: 14px; font-family: 'Fira Code', monospace; border-radius: 6px; box-shadow: 0 0 8px rgba(16,185,129,0.2);">
+          💼 <b>Status:</b> Freelance Open
+        </kbd>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
 
 <p align="center">
   ✨ <b>Building high-performance native experiences and bulletproof backend architectures.</b> ✨
