@@ -1,108 +1,247 @@
-<!-- HERO ANIMATION HEADER (CYAN GRADIENT ACCENT) -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07050f,50:1a103c,100:00f7ff&height=240&section=header&text=JEREN%20J&fontSize=45&fontColor=ffffff&animation=twinkling"/>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Jeren J | Android & Full Stack Developer — Flagship Portfolio</title>
+  <meta name="description" content="Jeren J - Android & Full Stack Developer. Building real-world apps with Kotlin, Jetpack Compose, and modern web technologies.">
+  <!-- Google Fonts & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-<!-- PREMIUM TYPING SUB-HEADER -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2400&pause=600&color=00F7FF&center=true&vCenter=true&width=550&lines=Android+Developer;Full+Stack+Engineer;Freelance+App+Architect;Kotlin+%7C+Java+%7C+Web+Dev"/>
-</p>
+   
+  </style>
+</head>
+<body>
 
-<!-- TECH BADGES QUICK OVERVIEW -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Native%20Android-00F7FF?style=flat-square&logo=android&logoColor=000" />
-  <img src="https://img.shields.io/badge/Backend-Full%20Stack-8B5CF6?style=flat-square&logo=php&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Status-Available%20For%20Freelance-10B981?style=flat-square&logo=codefactor&logoColor=fff" />
-</p>
+<div class="bg-orb"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
 
-<p align="center">
-  ✨ <b>Building high-performance native experiences and bulletproof backend architectures.</b> ✨
-</p>
+<div class="container">
+  <!-- Hero Section -->
+  <div class="hero-section glass-card">
+    <div class="hero-title">👋 Hi, I'm Jeren J</div>
+    <div class="badge-flex">
+      <span class="badge-pill"><i class="fab fa-android"></i> Android Developer</span>
+      <span class="badge-pill"><i class="fas fa-code"></i> Full Stack Developer</span>
+      <span class="badge-pill"><i class="fas fa-rocket"></i> Freelance App Developer</span>
+    </div>
+    <p style="font-size: 1.05rem; max-width: 560px;">Building real-world apps that solve everyday problems with clean UI, powerful functionality, and real impact.</p>
+    <div class="location-tag">
+      <i class="fas fa-map-marker-alt" style="color: #c084fc;"></i> Trichy, Tamil Nadu, India
+    </div>
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-number">12+</div><div class="stat-label">Projects</div></div>
+      <div class="stat-card"><div class="stat-number">100%</div><div class="stat-label">User First</div></div>
+      <div class="stat-card"><div class="stat-number">🚀</div><div class="stat-label">Kotlin/Compose</div></div>
+    </div>
+    <div class="social-wrap">
+      <a href="https://github.com/jeren-dev" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com/in/jeren-j-656a6031b" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:jeren3439@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://instagram.com/mr____jerry__offl" target="_blank" class="social-btn"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+  </div>
 
----
+  <!-- About + Current -->
+  <div class="grid-duo">
+    <div class="glass-card inner-card">
+      <div class="section-title"><i class="fas fa-user-astronaut"></i> 🚀 About Me</div>
+      <p>I am a passionate developer focused on building practical mobile and web applications with clean UI, strong functionality, and real-world impact.</p>
+      <p style="margin-top: 1rem;">I specialize in <strong>Android development using Kotlin and Jetpack Compose</strong>, and I enjoy creating fast, user-friendly applications that solve real problems.</p>
+    </div>
+    <div class="glass-card inner-card">
+      <div class="section-title"><i class="fas fa-bolt"></i> 📌 Currently I am:</div>
+      <ul class="list-icon">
+        <li><i class="fas fa-hammer"></i> Building Android apps with real-world use cases</li>
+        <li><i class="fas fa-seedling"></i> Improving my Full Stack development skills</li>
+        <li><i class="fas fa-briefcase"></i> Exploring freelance opportunities and project-based work</li>
+      </ul>
+    </div>
+  </div>
 
-## 🌌 Core Competencies & Architecture
-> Passionate developer focused on building functional, real-world mobile & web apps packed with pixel-perfect modern layouts and robust backend synchronization.
+  <!-- Tech Stack (Fully detailed) -->
+  <div class="glass-card inner-card" style="margin-bottom: 2rem;">
+    <div class="section-title"><i class="fas fa-microchip"></i> 🛠️ Tech Stack — Core Arsenal</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between;">
+      <div style="flex: 1;">
+        <h3><i class="fab fa-android"></i> 📱 Android</h3>
+        <div class="tech-chips">
+          <span class="chip">Kotlin</span><span class="chip">Jetpack Compose</span><span class="chip">XML UI</span><span class="chip">SQLite</span>
+        </div>
+      </div>
+      <div style="flex: 1;">
+        <h3><i class="fas fa-globe"></i> 🌐 Web Dev</h3>
+        <div class="tech-chips">
+          <span class="chip">HTML5/CSS3</span><span class="chip">JavaScript</span><span class="chip">PHP</span><span class="chip">MySQL</span>
+        </div>
+      </div>
+      <div style="flex: 1;">
+        <h3><i class="fas fa-tools"></i> ⚙️ Tools</h3>
+        <div class="tech-chips">
+          <span class="chip">Git/GitHub</span><span class="chip">Android Studio</span><span class="chip">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* 📱 **Native Client Infrastructure:** Jetpack Compose layout trees, MVVM architecture, foreground background services, and native API handlers.
-* 🌐 **Full-Stack Environments:** Highly responsive management dashboards, lightweight secure API wrappers, asynchronous data parsers.
-* 💾 **Data Engineering:** Local caching mechanisms via SQLite, schema design, and remote relational systems.
+  <!-- Featured Project: VoiceBudget -->
+  <div class="project-showcase">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+      <div style="flex: 2;">
+        <span class="proj-badge"><i class="fas fa-microphone-alt"></i> Voice-First Innovation</span>
+        <div class="proj-title">💰 VoiceBudget – Smart Expense Tracker App</div>
+        <p style="margin: 1rem 0; max-width: 600px;">A modern voice-enabled Android application that helps users track income and expenses easily and efficiently. Clean UI, SQLite persistence, and intelligent budget insights.</p>
+        <div class="tech-chips" style="margin: 0.5rem 0;">
+          <span class="chip">Kotlin</span><span class="chip">SQLite</span><span class="chip">Voice Input</span><span class="chip">Jetpack Compose</span>
+        </div>
+        <ul class="list-icon" style="margin: 1rem 0;">
+          <li><i class="fas fa-check-circle"></i> Built with Kotlin & SQLite</li>
+          <li><i class="fas fa-check-circle"></i> Clean and user-friendly UI</li>
+          <li><i class="fas fa-check-circle"></i> Voice-based expense entry</li>
+          <li><i class="fas fa-check-circle"></i> Smart budget tracking system</li>
+        </ul>
+        <a href="https://github.com/jeren-dev/VoiceBudget" target="_blank" class="btn-primary"><i class="fab fa-github"></i> View on GitHub →</a>
+      </div>
+      <div style="font-size: 4rem; opacity: 0.7; text-align: center; margin-top: 1rem;">
+        <i class="fas fa-chart-line" style="animation: floatAnim 3s infinite ease-in-out;"></i>
+        <i class="fas fa-microphone-alt" style="margin-left: 0.8rem; animation: floatAnim 3.5s infinite;"></i>
+      </div>
+    </div>
+  </div>
 
----
+  <!-- What I Do + Goals -->
+  <div class="grid-duo">
+    <div class="glass-card inner-card">
+      <div class="section-title"><i class="fas fa-laptop-code"></i> 🎯 What I Do</div>
+      <ul class="list-icon">
+        <li><i class="fas fa-mobile-alt"></i> Android App Development</li>
+        <li><i class="fas fa-code"></i> Full Stack Web Development</li>
+        <li><i class="fas fa-briefcase"></i> Freelance App Projects</li>
+        <li><i class="fas fa-puzzle-piece"></i> Problem Solving & UI Design</li>
+      </ul>
+    </div>
+    <div class="glass-card inner-card">
+      <div class="section-title"><i class="fas fa-chart-line"></i> 🌱 Goals & Vision</div>
+      <p>My goal is to become a professional software engineer and build impactful digital products that solve real-world problems.</p>
+      <div class="goal-premium">
+        <i class="fas fa-rocket" style="color: #c084fc;"></i> In the long term, I aim to grow as a freelance developer and launch my own tech-based applications.
+      </div>
+    </div>
+  </div>
 
-## 🛠️ The Digital Ecosystem
+  <!-- Connect & final touch -->
+  <div class="glass-card inner-card" style="text-align: center;">
+    <div class="section-title" style="justify-content: center; border-left: none;">
+      <i class="fas fa-hand-peace"></i> 📫 Connect With Me — Let's Create
+    </div>
+    <div class="social-wrap" style="justify-content: center;">
+      <a href="mailto:jeren3439@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> jeren3439@gmail.com</a>
+      <a href="https://instagram.com/mr____jerry__offl" class="social-btn"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://linkedin.com/in/jeren-j-656a6031b" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/jeren-dev" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+    <div style="margin-top: 1rem; opacity: 0.7; font-size: 0.85rem;">
+      <i class="fas fa-map-pin"></i> Trichy, Tamil Nadu, India | Open for Freelance
+    </div>
+  </div>
 
-<p align="center">
-  <!-- CYAN SECTOR (ANDROID & CORE) -->
-  <img src="https://img.shields.io/badge/Kotlin-00F7FF?style=for-the-badge&logo=kotlin&logoColor=000" />
-  <img src="https://img.shields.io/badge/Android_Studio-00F7FF?style=for-the-badge&logo=android-studio&logoColor=000" />
-  <img src="https://img.shields.io/badge/Java-00F7FF?style=for-the-badge&logo=openjdk&logoColor=000" />
-  <br>
-  <!-- VIOLET SECTOR (WEB ENGINE) -->
-  <img src="https://img.shields.io/badge/PHP-8B5CF6?style=for-the-badge&logo=php&logoColor=fff" />
-  <img src="https://img.shields.io/badge/JavaScript-8B5CF6?style=for-the-badge&logo=javascript&logoColor=fff" />
-  <img src="https://img.shields.io/badge/VS_Code-8B5CF6?style=for-the-badge&logo=visual-studio-code&logoColor=fff" />
-  <br>
-  <!-- EMERALD SECTOR (DATABASE & UTILS) -->
-  <img src="https://img.shields.io/badge/MySQL-10B981?style=for-the-badge&logo=mysql&logoColor=fff" />
-  <img src="https://img.shields.io/badge/SQLite-10B981?style=for-the-badge&logo=sqlite&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Git_Engine-10B981?style=for-the-badge&logo=git&logoColor=fff" />
-</p>
+  <div class="footer-area">
+    <p>⭐ Always learning. Always building. — Jeren J | Android & Full Stack Developer</p>
+    <p style="margin-top: 6px;"><i class="fas fa-crown"></i> Flagship Portfolio • Glassmorphism • Interactive Experience</p>
+  </div>
+</div>
 
----
+<style>
+  @keyframes floatAnim {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  .fa-chart-line, .fa-microphone-alt {
+    animation: floatAnim 3s ease-in-out infinite;
+  }
+  .fa-microphone-alt {
+    animation-delay: 0.4s;
+  }
+</style>
 
-## 🚀 Featured Deployments (Hover Glow Cards)
+<script>
+  (function() {
+    // Premium mouse following glow
+    const glow = document.getElementById('cursorGlow');
+    if (glow) {
+      document.addEventListener('mousemove', (e) => {
+        requestAnimationFrame(() => {
+          glow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+        });
+      });
+    }
 
-<p align="center">
+    // Interactive hover for chips
+    const chips = document.querySelectorAll('.chip');
+    chips.forEach(chip => {
+      chip.addEventListener('mouseenter', () => {
+        chip.style.transform = 'translateY(-3px)';
+        chip.style.backgroundColor = '#4f46e5';
+      });
+      chip.addEventListener('mouseleave', () => {
+        chip.style.transform = 'translateY(0px)';
+        chip.style.backgroundColor = 'rgba(79, 70, 229, 0.25)';
+      });
+    });
 
-<a href="https://github.com/jeren-dev/VoiceBudget">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=VoiceBudget&theme=tokyonight&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&bg_color=07050f&hide_border=false" />
-</a>
+    // Stat counter animation with Intersection Observer (simple but elegant)
+    const statNumbers = document.querySelectorAll('.stat-number');
+    const animateValue = (el) => {
+      const raw = el.innerText;
+      if (raw.includes('+')) {
+        const target = parseInt(raw);
+        if (!el.dataset.animated && target && !isNaN(target)) {
+          el.dataset.animated = 'true';
+          let current = 0;
+          const step = target / 35;
+          const update = () => {
+            current += step;
+            if (current < target) {
+              el.innerText = Math.floor(current) + '+';
+              requestAnimationFrame(update);
+            } else {
+              el.innerText = target + '+';
+            }
+          };
+          update();
+        }
+      }
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          animateValue(el);
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.4 });
+    
+    statNumbers.forEach(el => observer.observe(el));
 
-<a href="https://github.com/jeren-dev/Emergency-Sos">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Emergency-Sos&theme=tokyonight&title_color=8b5cf6&icon_color=10b981&text_color=ffffff&bg_color=07050f&hide_border=false" />
-</a>
-
-<a href="https://github.com/jeren-dev/Ration-Shop">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Ration-Shop&theme=tokyonight&title_color=10b981&icon_color=00f7ff&text_color=ffffff&bg_color=07050f&hide_border=false" />
-</a>
-
-</p>
-
----
-
-## 📊 Live Core Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jeren-dev&show_icons=true&theme=tokyonight&bg_color=07050f&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeren-dev&theme=tokyonight&background=07050f&ring=00f7ff&fire=8b5cf6&currStreakLabel=10b981&hide_border=true"/>
-</p>
-
----
-
-## 🌐 Secure Telemetry Gateways
-
-<p align="center">
-  <a href="mailto:jeren3439@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-00F7FF?style=for-the-badge&logo=gmail&logoColor=000"/>
-  </a>
-  <a href="https://linkedin.com/in/jeren-j-656a6031b" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://instagram.com/mr____jerry__offl" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-  <a href="https://github.com/jeren-dev?tab=repositories">
-    <img src="https://img.shields.io/badge/All_Projects-10B981?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
----
-
-## ⚡ Infinite Execution Loop
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=800&color=8B5CF6&center=true&vCenter=true&width=500&lines=while(true)+%7B+Build();+Improve();+%7D"/>
-</p>
+    // fallback for direct load
+    window.addEventListener('load', () => {
+      statNumbers.forEach(el => {
+        if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+          animateValue(el);
+        }
+      });
+    });
+  })();
+</script>
+</body>
+</html>
