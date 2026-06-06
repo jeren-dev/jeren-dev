@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Jeren J | Flagship Portfolio — Android & Full Stack Dev</title>
+  <title>Jeren J | Flagship Portfolio — Android & Full Stack Architect</title>
   <!-- Google Fonts & Font Awesome -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * {
@@ -16,14 +16,14 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background-color: #05070a;
-      color: #ededee;
+      background: #05070a;
+      color: #f0f3fa;
       overflow-x: hidden;
       cursor: default;
       line-height: 1.5;
     }
 
-    /* CANVAS 3D PARTICLE BACKGROUND - WORLD CLASS */
+    /* CANVAS 3D PARTICLE BACKGROUND - WORLD CLASS FIXED */
     #bg-canvas {
       position: fixed;
       top: 0;
@@ -38,24 +38,24 @@
     /* custom cursor glow (massive interactive) */
     .cursor-glow {
       position: fixed;
-      width: 450px;
-      height: 450px;
-      background: radial-gradient(circle, rgba(99, 102, 241, 0.3) 0%, rgba(139, 92, 246, 0) 70%);
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.35) 0%, rgba(139, 92, 246, 0) 70%);
       border-radius: 50%;
       pointer-events: none;
       transform: translate(-50%, -50%);
-      z-index: 1;
-      filter: blur(70px);
-      opacity: 0.8;
-      transition: transform 0.05s linear;
+      z-index: 2;
+      filter: blur(80px);
+      opacity: 0.9;
+      transition: transform 0.03s linear;
     }
 
     /* custom scroll */
     ::-webkit-scrollbar {
-      width: 5px;
+      width: 6px;
     }
     ::-webkit-scrollbar-track {
-      background: #0f1117;
+      background: #0a0c15;
     }
     ::-webkit-scrollbar-thumb {
       background: #6366f1;
@@ -73,16 +73,17 @@
 
     /* glassmorphic card style - enhanced */
     .glass-card {
-      background: rgba(15, 20, 35, 0.6);
+      background: rgba(12, 18, 30, 0.65);
       backdrop-filter: blur(14px);
       border-radius: 2rem;
       border: 1px solid rgba(99, 102, 241, 0.35);
-      box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.6);
       transition: all 0.35s cubic-bezier(0.2, 0.9, 0.4, 1.1);
     }
     .glass-card:hover {
-      border-color: rgba(139, 92, 246, 0.6);
-      box-shadow: 0 30px 45px -12px rgba(79, 70, 229, 0.4);
+      border-color: rgba(139, 92, 246, 0.7);
+      box-shadow: 0 30px 45px -12px rgba(79, 70, 229, 0.5);
+      background: rgba(15, 22, 38, 0.75);
     }
 
     /* header section big flex flagship */
@@ -97,24 +98,25 @@
     }
 
     .hero-left h1 {
-      font-size: 4.4rem;
+      font-size: 4.6rem;
       font-weight: 800;
-      background: linear-gradient(135deg, #FFFFFF, #c4b5fd, #818cf8);
+      background: linear-gradient(135deg, #ffffff, #c4b5fd, #a78bfa);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
       letter-spacing: -0.02em;
+      line-height: 1.2;
     }
     .badge {
       background: linear-gradient(95deg, #4f46e5, #7c3aed);
-      padding: 0.3rem 1rem;
+      padding: 0.3rem 1.1rem;
       border-radius: 40px;
       font-size: 0.75rem;
       font-weight: 700;
       display: inline-block;
       margin-top: 1rem;
       letter-spacing: 0.5px;
-      box-shadow: 0 2px 8px rgba(79,70,229,0.4);
+      box-shadow: 0 2px 12px rgba(79,70,229,0.5);
     }
     .hero-stats {
       display: flex;
@@ -138,7 +140,7 @@
       border-radius: 2rem;
       padding: 1rem 2rem;
       backdrop-filter: blur(8px);
-      border: 1px solid rgba(139, 92, 246, 0.5);
+      border: 1px solid rgba(139, 92, 246, 0.6);
       transition: all 0.2s;
     }
 
@@ -176,6 +178,7 @@
       font-weight: 600;
       transition: 0.2s;
       cursor: default;
+      backdrop-filter: blur(4px);
     }
     .tech-item i {
       margin-right: 8px;
@@ -183,11 +186,11 @@
     }
 
     .featured-project {
-      background: linear-gradient(125deg, #141b2f, #0a0f1a);
+      background: linear-gradient(125deg, #121a2c, #080c18);
       border-radius: 2rem;
       padding: 1.8rem;
       transition: transform 0.3s ease, box-shadow 0.3s;
-      border: 1px solid rgba(99, 102, 241, 0.4);
+      border: 1px solid rgba(99, 102, 241, 0.5);
     }
     .featured-project:hover {
       transform: translateY(-8px);
@@ -211,11 +214,12 @@
       transition: 0.2s;
       border: none;
       cursor: pointer;
-      box-shadow: 0 4px 12px rgba(79,70,229,0.4);
+      box-shadow: 0 4px 12px rgba(79,70,229,0.5);
     }
     .btn:hover {
       transform: scale(1.03);
       background: linear-gradient(95deg, #6366f1, #8b5cf6);
+      box-shadow: 0 6px 16px rgba(139,92,246,0.5);
     }
 
     .social-links {
@@ -234,7 +238,7 @@
       text-decoration: none;
       font-size: 0.9rem;
       font-weight: 500;
-      border: 1px solid rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
     }
     .social-icon i {
       margin-right: 8px;
@@ -244,7 +248,7 @@
       background: #4f46e5;
       color: white;
       transform: translateY(-4px);
-      border-color: #a78bfa;
+      border-color: #c084fc;
     }
 
     /* footer */
@@ -263,12 +267,13 @@
       .container { padding: 1rem; }
       .hero { padding: 1.5rem !important; }
       .section-title { font-size: 1.5rem; }
+      .hero-stats { gap: 1rem; }
     }
 
     /* subtle pulse animation for flagship elements */
     @keyframes flagshipGlow {
-      0% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.3); border-color: rgba(99, 102, 241, 0.4);}
-      50% { box-shadow: 0 0 0 8px rgba(99, 102, 241, 0.1); border-color: #a78bfa;}
+      0% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.2); border-color: rgba(99, 102, 241, 0.4);}
+      50% { box-shadow: 0 0 0 10px rgba(99, 102, 241, 0.1); border-color: #c084fc;}
       100% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0); border-color: rgba(99, 102, 241, 0.4);}
     }
     .hero-right {
@@ -281,7 +286,7 @@
 </head>
 <body>
 
-<!-- 3D Particle Canvas Background (world-class move) -->
+<!-- 3D Particle Canvas Background (Fully functional) -->
 <canvas id="bg-canvas"></canvas>
 
 <!-- Interactive mouse glow -->
@@ -427,116 +432,120 @@
 </div>
 
 <script>
-  // ---- 3D Particle Network Background (Canvas World-Class) ----
-  const canvas = document.getElementById('bg-canvas');
-  const ctx = canvas.getContext('2d');
-  let width = window.innerWidth;
-  let height = window.innerHeight;
-  let particles = [];
-  const PARTICLE_COUNT = 140;
-  let mouseX = width/2, mouseY = height/2;
-  
-  function initParticles() {
-    particles = [];
-    for (let i = 0; i < PARTICLE_COUNT; i++) {
-      particles.push({
-        x: Math.random() * width,
-        y: Math.random() * height,
-        radius: Math.random() * 2.2 + 1.2,
-        vx: (Math.random() - 0.5) * 0.6,
-        vy: (Math.random() - 0.5) * 0.6,
-        baseColor: `hsl(${240 + Math.random() * 40}, 70%, 65%)`
-      });
+  (function() {
+    // ---- FIXED: 3D Particle Network Background (Canvas World-Class) ----
+    const canvas = document.getElementById('bg-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+    let particles = [];
+    const PARTICLE_COUNT = 150;
+    let mouseX = width/2, mouseY = height/2;
+    
+    function initParticles() {
+      particles = [];
+      for (let i = 0; i < PARTICLE_COUNT; i++) {
+        particles.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          radius: Math.random() * 2.5 + 1.2,
+          vx: (Math.random() - 0.5) * 0.5,
+          vy: (Math.random() - 0.5) * 0.5,
+          baseColor: `hsl(${240 + Math.random() * 50}, 75%, 65%)`
+        });
+      }
     }
-  }
-  
-  function resizeCanvas() {
-    width = window.innerWidth;
-    height = window.innerHeight;
-    canvas.width = width;
-    canvas.height = height;
-    initParticles();
-  }
-  
-  function drawConnections() {
-    for (let i = 0; i < particles.length; i++) {
-      for (let j = i+1; j < particles.length; j++) {
-        const dx = particles[i].x - particles[j].x;
-        const dy = particles[i].y - particles[j].y;
-        const dist = Math.hypot(dx, dy);
-        if (dist < 120) {
-          ctx.beginPath();
-          ctx.moveTo(particles[i].x, particles[i].y);
-          ctx.lineTo(particles[j].x, particles[j].y);
-          const opacity = 0.2 * (1 - dist/120);
-          ctx.strokeStyle = `rgba(139, 92, 246, ${opacity + 0.1})`;
-          ctx.lineWidth = 0.8;
-          ctx.stroke();
+    
+    function resizeCanvas() {
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = width;
+      canvas.height = height;
+      initParticles();
+    }
+    
+    function drawConnections() {
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i+1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.hypot(dx, dy);
+          if (dist < 130) {
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            const opacity = 0.25 * (1 - dist/130);
+            ctx.strokeStyle = `rgba(139, 92, 246, ${opacity + 0.1})`;
+            ctx.lineWidth = 0.9;
+            ctx.stroke();
+          }
         }
       }
     }
-  }
-  
-  function animateParticles() {
-    ctx.clearRect(0, 0, width, height);
-    // draw subtle radial gradient on canvas for depth
-    const grad = ctx.createLinearGradient(0, 0, width, height);
-    grad.addColorStop(0, '#03050b');
-    grad.addColorStop(1, '#0a0f1a');
-    ctx.fillStyle = grad;
-    ctx.fillRect(0, 0, width, height);
     
-    // update & draw particles with mouse repulsion effect (interactive)
-    for (let p of particles) {
-      // mouse repulsion
-      const dx = p.x - mouseX;
-      const dy = p.y - mouseY;
-      const dist = Math.hypot(dx, dy);
-      if (dist < 150) {
-        const angle = Math.atan2(dy, dx);
-        const force = (150 - dist) / 150 * 1.2;
-        p.vx += Math.cos(angle) * force * 0.2;
-        p.vy += Math.sin(angle) * force * 0.2;
-      }
-      // velocity damp
-      p.vx *= 0.99;
-      p.vy *= 0.99;
-      p.x += p.vx;
-      p.y += p.vy;
-      // boundaries wrap around
-      if (p.x < 0) p.x = width;
-      if (p.x > width) p.x = 0;
-      if (p.y < 0) p.y = height;
-      if (p.y > height) p.y = 0;
+    function animateParticles() {
+      if (!ctx) return;
+      ctx.clearRect(0, 0, width, height);
+      // beautiful dark gradient background
+      const grad = ctx.createLinearGradient(0, 0, width*0.8, height);
+      grad.addColorStop(0, '#02040c');
+      grad.addColorStop(1, '#0a0f1c');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, width, height);
       
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-      ctx.fillStyle = p.baseColor;
-      ctx.shadowBlur = 8;
-      ctx.shadowColor = "#818cf8";
-      ctx.fill();
-      ctx.shadowBlur = 0;
+      for (let p of particles) {
+        // mouse attraction / repulsion effect for interactivity
+        const dx = p.x - mouseX;
+        const dy = p.y - mouseY;
+        const dist = Math.hypot(dx, dy);
+        if (dist < 160) {
+          const angle = Math.atan2(dy, dx);
+          const force = (160 - dist) / 160 * 1.0;
+          p.vx += Math.cos(angle) * force * 0.18;
+          p.vy += Math.sin(angle) * force * 0.18;
+        }
+        // velocity damping
+        p.vx *= 0.99;
+        p.vy *= 0.99;
+        p.x += p.vx;
+        p.y += p.vy;
+        // wrap around edges smoothly
+        if (p.x < -20) p.x = width + 20;
+        if (p.x > width + 20) p.x = -20;
+        if (p.y < -20) p.y = height + 20;
+        if (p.y > height + 20) p.y = -20;
+        
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fillStyle = p.baseColor;
+        ctx.shadowBlur = 10;
+        ctx.shadowColor = "#a78bfa";
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      }
+      drawConnections();
+      requestAnimationFrame(animateParticles);
     }
-    drawConnections();
-    requestAnimationFrame(animateParticles);
-  }
-  
-  window.addEventListener('resize', () => {
+    
+    window.addEventListener('resize', () => {
+      resizeCanvas();
+    });
+    
+    // track mouse for both canvas interaction and cursor glow
+    document.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      const cursorGlow = document.getElementById('cursorGlow');
+      if (cursorGlow) {
+        cursorGlow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      }
+    });
+    
     resizeCanvas();
-  });
-  
-  document.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-    const cursorGlow = document.getElementById('cursorGlow');
-    if (cursorGlow) {
-      cursorGlow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-    }
-  });
-  
-  resizeCanvas();
-  animateParticles();
-  
+    animateParticles();
+  })();
+
   // extra: interactive tech items hover scaling
   const techItems = document.querySelectorAll('.tech-item');
   techItems.forEach(item => {
@@ -551,15 +560,7 @@
     });
   });
   
-  // dynamic floating effect to social icons
-  const socialIcons = document.querySelectorAll('.social-icon');
-  socialIcons.forEach(icon => {
-    icon.addEventListener('mouseenter', () => {
-      icon.style.transition = 'all 0.2s cubic-bezier(0.2, 0.9, 0.6, 1.1)';
-    });
-  });
-  
-  // Add smooth reveal on load
+  // smooth reveal
   window.addEventListener('load', () => {
     document.body.style.opacity = '1';
   });
