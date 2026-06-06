@@ -52,6 +52,26 @@
 
 ---
 
+## 🚀 Featured Projects (Custom Neon Hover Cards)
+
+<p align="center">
+
+<a href="https://github.com/jeren-dev/VoiceBudget">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=VoiceBudget&theme=tokyonight&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&bg_color=07050f&hide_border=false" />
+</a>
+
+<a href="https://github.com/jeren-dev/Emergency-Sos">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Emergency-Sos&theme=tokyonight&title_color=8b5cf6&icon_color=10b981&text_color=ffffff&bg_color=07050f&hide_border=false" />
+</a>
+
+<a href="https://github.com/jeren-dev/Ration-Shop">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Ration-Shop&theme=tokyonight&title_color=10b981&icon_color=00f7ff&text_color=ffffff&bg_color=07050f&hide_border=false" />
+</a>
+
+</p>
+
+---
+
 ## 📊 Deep Core Analytics (Live Neon Metrics)
 
 <p align="center">
