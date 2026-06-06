@@ -8,7 +8,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2400&pause=600&color=00F7FF&center=true&vCenter=true&width=550&lines=Android+Developer;Full+Stack+Engineer;Freelance+App+Architect;Kotlin+%7C+Java+%7C+Web+Dev"/>
 </p>
 
-<!-- TECH BADGES QUICK OVERVIEW -->
+<!-- TECH BADGES QUICK OVERVIEW (STATIC VIEW - NO LINK) -->
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Native%20Android-00F7FF?style=flat-square&logo=android&logoColor=000" />
   <img src="https://img.shields.io/badge/Backend-Full%20Stack-8B5CF6?style=flat-square&logo=php&logoColor=fff" />
@@ -52,6 +52,13 @@
 ---
 
 ## 🚀 Featured Deployments (Premium Production Matrix)
+
+<!-- SEE MY PORTFOLIO NEON CTA -->
+<p align="center">
+  <a href="https://github.com/jeren-dev?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-%E2%9A%A1-00F7FF?style=for-the-badge&logo=github&logoColor=000"/>
+  </a>
+</p>
 
 <div align="center">
   <table style="border: 1px solid #1a1a2e; border-collapse: collapse; width: 100%; background-color: #07050f;">
