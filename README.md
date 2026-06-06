@@ -51,19 +51,73 @@
 
 ---
 
-## 🚀 Featured Deployments (Hover Glow Cards)
+## 🚀 Featured Deployments (Premium Production Matrix)
 
-<p align="center">
-  <a href="https://github.com/jeren-dev/VoiceBudget">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=VoiceBudget&theme=tokyonight&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&bg_color=07050f&hide_border=false" />
-  </a>
-  <a href="https://github.com/jeren-dev/Emergency-Sos">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Emergency-Sos&theme=tokyonight&title_color=8b5cf6&icon_color=10b981&text_color=ffffff&bg_color=07050f&hide_border=false" />
-  </a>
-  <a href="https://github.com/jeren-dev/Ration-Shop">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeren-dev&repo=Ration-Shop&theme=tokyonight&title_color=10b981&icon_color=00f7ff&text_color=ffffff&bg_color=07050f&hide_border=false" />
-  </a>
-</p>
+<div align="center">
+  <table style="border: 1px solid #1a1a2e; border-collapse: collapse; width: 100%; background-color: #07050f;">
+    <thead>
+      <tr style="background-color: #0e0b1e;">
+        <th style="padding: 12px; border: 1px solid #1a1a2e; color: #00f7ff; font-size: 16px;">📂 Project Hub</th>
+        <th style="padding: 12px; border: 1px solid #1a1a2e; color: #8b5cf6; font-size: 16px;">⚡ Architecture Details</th>
+        <th style="padding: 12px; border: 1px solid #1a1a2e; color: #10b981; font-size: 16px;">🛠️ Tech Stack Matrix</th>
+        <th style="padding: 12px; border: 1px solid #1a1a2e; color: #ffffff; font-size: 16px;">🔗 Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- ROW 1: VOICEBUDGET -->
+      <tr>
+        <td style="padding: 15px; border: 1px solid #1a1a2e; font-weight: bold; color: #ffffff;">
+          💰 VoiceBudget
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e; color: #a0aec0; font-size: 13px;">
+          Advanced voice-enabled expense tracking system utilizing efficient local data persistence workflows and dynamic UI trees.
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e;">
+          <img src="https://img.shields.io/badge/Kotlin-00f7ff?style=flat-square&logoColor=000"/> <img src="https://img.shields.io/badge/SQLite-darkgreen?style=flat-square"/>
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e;" align="center">
+          <a href="https://github.com/jeren-dev/VoiceBudget" target="_blank">
+            <img src="https://img.shields.io/badge/LAUNCH-%E2%96%B6-00f7ff?style=for-the-badge&logoColor=000"/>
+          </a>
+        </td>
+      </tr>
+      <!-- ROW 2: EMERGENCY SOS -->
+      <tr>
+        <td style="padding: 15px; border: 1px solid #1a1a2e; font-weight: bold; color: #ffffff;">
+          🚨 Emergency SOS
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e; color: #a0aec0; font-size: 13px;">
+          Safety tracking engine managing automated real-time background services, geolocation updates, and custom hardware listener hooks.
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e;">
+          <img src="https://img.shields.io/badge/Kotlin-8b5cf6?style=flat-square"/> <img src="https://img.shields.io/badge/Services-black?style=flat-square"/>
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e;" align="center">
+          <a href="https://github.com/jeren-dev/Emergency-Sos" target="_blank">
+            <img src="https://img.shields.io/badge/LAUNCH-%E2%96%B6-8b5cf6?style=for-the-badge"/>
+          </a>
+        </td>
+      </tr>
+      <!-- ROW 3: CORPORATION HUB -->
+      <tr>
+        <td style="padding: 15px; border: 1px solid #1a1a2e; font-weight: bold; color: #ffffff;">
+          🏢 Corporate System
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e; color: #a0aec0; font-size: 13px;">
+          Enterprise administrative hub handling role-based access tokens, JSON integration pipelines via Volley networks, and MySQL schemas.
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e;">
+          <img src="https://img.shields.io/badge/PHP-10b981?style=flat-square"/> <img src="https://img.shields.io/badge/Volley_API-orange?style=flat-square"/>
+        </td>
+        <td style="padding: 15px; border: 1px solid #1a1a2e;" align="center">
+          <a href="https://github.com/jeren-dev" target="_blank">
+            <img src="https://img.shields.io/badge/LAUNCH-%E2%96%B6-10b981?style=for-the-badge"/>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 
