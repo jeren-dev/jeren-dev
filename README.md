@@ -149,10 +149,6 @@
 ## 📊 Live Core Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jeren-dev&show_icons=true&theme=tokyonight&bg_color=07050f&title_color=00f7ff&icon_color=8b5cf6&text_color=ffffff&hide_border=true" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeren-dev&theme=tokyonight&background=07050f&ring=00f7ff&fire=8b5cf6&currStreakLabel=10b981&hide_border=true" />
 </p>
 
