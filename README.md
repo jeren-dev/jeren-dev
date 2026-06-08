@@ -5,7 +5,7 @@
 
 <!-- PREMIUM TYPING SUB-HEADER -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2400&pause=600&color=00F7FF&center=true&vCenter=true&width=550&lines=Android+Developer;Full+Stack+Engineer;Freelance+App+Architect;Kotlin+%7C+Java+%7C+Web+Dev"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2400&pause=600&color=00F7FF&center=true&vCenter=true&width=550&lines=Android+Developer;Full+Stack+Developer;Freelance+App+Architect;Kotlin+%7C+Java+%7C+Web+Dev"/>
 </p>
 
 <!-- PURE MODERN GLASS-MATRIX CAPSULES (STATIC VIEWS - NON-CLICKABLE) -->
