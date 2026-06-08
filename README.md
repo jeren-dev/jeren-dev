@@ -181,5 +181,3 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=800&color=8B5CF6&center=true&vCenter=true&width=500&lines=while(true)+%7B+Build();+Improve();+%7D"/>
 </p>
-
-same enchanced for this portfolio 
