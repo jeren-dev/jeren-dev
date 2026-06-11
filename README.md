@@ -163,9 +163,6 @@
   <a href="https://linkedin.com/in/jeren-j-656a6031b" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://instagram.com/mr____jerry__offl" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
   <a href="https://github.com/jeren-dev?tab=repositories">
     <img src="https://img.shields.io/badge/All_Projects-10B981?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
