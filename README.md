@@ -74,7 +74,7 @@
 <!-- SEE MY PORTFOLIO NEON CTA -->
 <p align="center">
   <a href="https://magenta-pixie-b08207.netlify.app/">
-    <img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-%E2%9A%A1-00F7FF?style=for-the-badge&logo=github&logoColor=000"/>
+    <img src="https://6a3d0653344c5b0c6bc71505--stalwart-caramel-7a3f8b.netlify.app/"/>
   </a>
 </p>
 
